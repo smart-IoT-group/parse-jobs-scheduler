@@ -448,5 +448,6 @@ var performJob = function () {
   };
 }();
 
+exports.recreateScheduleForAllJobs = recreateScheduleForAllJobs;
 exports.recreateSchedule = recreateSchedule;
 exports.destroySchedule = destroySchedule;
